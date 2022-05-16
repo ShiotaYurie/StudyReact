@@ -5,14 +5,12 @@ export const About = () => {
     return(
         <>
           <div>
-            {/* Link設定 */}
-            <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/todo">Todo</Link></li>
-              <li><Link to="/about">About</Link></li>
-            </ul>
             <p>Aboutだよ</p>
-               
+            <ul>
+            <li><Link to="/about/1">About1</Link></li>
+            <li> <Link to="/about/2">About2</Link></li>
+            <li><Link to="/about/3">About3</Link></li>
+            </ul>
           </div>
         </>
     );

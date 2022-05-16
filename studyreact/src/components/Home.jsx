@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 
@@ -9,11 +9,11 @@ import { Link } from "react-router-dom";
         <>
           <div>
              {/* Link設定 */}             
-            <ul>
+            {/* <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/todo">Todo</Link></li>
               <li><Link to="/about">About</Link></li>
-            </ul>
+            </ul> */}
             <p>Homeだよ</p>
           </div>
         </>
