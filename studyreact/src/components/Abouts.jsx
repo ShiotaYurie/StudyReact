@@ -2,12 +2,14 @@ import React from "react";
 import { useParams } from "react-router";
 
 export const Abouts = ()=>{
-    const {aboutID} = useParams
+    const {aboutID} = useParams();
 
     return(
         <>
+        <div>
         <p>About詳細</p>
-         <p>ID: {aboutID}</p> 
+         {aboutID} 
+        </div>
         </>
     );
 }
